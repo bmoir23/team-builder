@@ -7,7 +7,7 @@ const TeamMembers = (members) => {
     // console.log(memberList)
     return (
         <div className='members'>
-            {membersList.map((member, index) => (
+            {memberList.map((member, index) => (
                 <div className='memberCard' key={index}>
                     <p>Team Member</p>
                     <h1><span>{member.name}</span></h1>
