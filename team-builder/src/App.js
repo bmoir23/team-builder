@@ -1,9 +1,9 @@
 
 import './App.css';
-import Header from '.src/components/Header/Header.js';
+import Header from './src/components/Header/Header.js';
 import React, { useState } from 'react';
-import TeamMembers from '.src/components/TeamMembers/TeamMembers.js';
-import Form from '.src/components/form/form.js';
+import TeamMembers from '/src/components/TeamMembers/TeamMembers.js';
+import Form from './src/components/form/form.js';
 
 function App() {
   const [teamMembers, setTeamMembers] = useState( [{name: 'Henry Ford', role: 'Designer'}, {name: 'Alice Liddell', role: 'Rabbit Hole Expert'}, {name: 'Charley Chaplin', role: 'Entertainer'}] );
