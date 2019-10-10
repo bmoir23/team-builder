@@ -33,7 +33,7 @@ function App() {
     <div className="App">
       <Header/>
       <Form nameHandler={nameHandler} roleHandler={roleHandler} addTeamMember={addTeamMember}/>
-      <TeamMembers teamMembers={teamMembers} />
+      <TeamMembers TeamMembers={TeamMembers} />
     </div>
   );
 }
