@@ -1,8 +1,8 @@
 
 import './App.css';
-import Header from './components/Header/Header';
 import React, { useState } from 'react';
-import TeamMembers from './TeamMembers/TeamMembers';
+import Header from './components/Header/Header';
+import TeamMembers from './components/TeamMembers/TeamMembers';
 import Form from './components/Form/Form';
 
 function App() {
