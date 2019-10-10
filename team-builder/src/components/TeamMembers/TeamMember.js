@@ -12,6 +12,7 @@ const TeamMembers = (members) => {
                     <p>Team Member</p>
                     <h1><span>{member.name}</span></h1>
                     <p><span>Role:</span> {member.role}</p>
+                    <p><span>Email:</span>{member.email}</p>
                 </div>
             ))}
         </div>

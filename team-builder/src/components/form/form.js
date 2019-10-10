@@ -15,6 +15,10 @@ const Form = (props) => {
                     <label htmlFor='MemberRole'>
                         Role 
                     </label>
+                    <input type='text' id='MemberEmail' placeholder='Team Member Email...' onChange={props.nameHandler}/>
+                    <label htmlFor='MemberRole'>
+                       Email
+                    </label>
                     <input type='text' id='MemberRole' placeholder='Team Member Role...' onChange={props.roleHandler}/>
                     <button>Submit</button>
                 </form>
