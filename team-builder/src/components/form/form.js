@@ -1,5 +1,5 @@
-import React from 'react';
-import './form.css';
+import React from './node_modules/react';
+import './Form.css';
 
 const Form = (props) => {
     // console.log(props)
