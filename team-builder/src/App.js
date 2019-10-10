@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import React, { useState } from 'react';
 import TeamMembers from './components/TeamMembers/TeamMembers';
-import Form from './components/Form/Form';
+import Form from './components/form/form';
 
 function App() {
   const [teamMembers, setTeamMembers] = useState( [{name: 'Henry Ford', role: 'Designer'}, {name: 'Alice Liddell', role: 'Rabbit Hole Expert'}, {name: 'Charley Chaplin', role: 'Entertainer'}] );
