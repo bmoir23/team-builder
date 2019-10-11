@@ -49,7 +49,7 @@ const MemberForm = props => {
     onChange={changeHandler} 
     value={member.role}/>
     <button type="submit">Add Member</button>
-    <label className="checkbox-container">
+    {/* <label className="checkbox-container">
           <Field
             type="checkbox"
             name="Agree to Terms"
@@ -57,7 +57,7 @@ const MemberForm = props => {
           />
           Agree to Terms
           <span className="checkmark" />
-        </label>
+        </label> */}
   
   
   
