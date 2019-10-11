@@ -1,6 +1,6 @@
 
 import React, {useState} from 'react';
-import logo from './meme.jpg';
+
 import './App.css';
 import ReactDOM from 'react-dom';
 
