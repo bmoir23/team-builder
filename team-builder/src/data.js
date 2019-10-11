@@ -2,7 +2,7 @@
 export default [
     {
       name: "Brian",
-      email: "username@email.com",
+      email: "brianmoir80@gmail.com",
       role: "React Dev :/"
           }
   ];
